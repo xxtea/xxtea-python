@@ -1,0 +1,4 @@
+include *.md
+include requirements.txt
+recursive-include xxtea *
+recursive-include tests *
