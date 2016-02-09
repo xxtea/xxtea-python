@@ -7,6 +7,8 @@
 [![PyPI](https://img.shields.io/pypi/implementation/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
 [![PyPI](https://img.shields.io/pypi/status/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
 [![PyPI](https://img.shields.io/pypi/dm/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/dw/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/dd/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
 
 ## 简介
 

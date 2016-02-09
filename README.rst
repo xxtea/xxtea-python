@@ -22,6 +22,12 @@ XXTEA for Python
 .. image:: https://img.shields.io/pypi/dm/xxtea-python.svg
    :target: https://pypi.python.org/pypi/xxtea-python
 
+.. image:: https://img.shields.io/pypi/dw/xxtea-python.svg
+   :target: https://pypi.python.org/pypi/xxtea-python
+
+.. image:: https://img.shields.io/pypi/dd/xxtea-python.svg
+   :target: https://pypi.python.org/pypi/xxtea-python
+
 Introduction
 ------------
 
