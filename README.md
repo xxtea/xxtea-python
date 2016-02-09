@@ -11,7 +11,7 @@ It is different from the original XXTEA encryption algorithm. It encrypts and de
 ## Installation
 
 ```sh
-pip install XXTEA
+pip install xxtea-python
 ```
 
 ## Usage
@@ -29,9 +29,9 @@ print(text == decrypt_data);
 Python3:
 ```python
 import xxtea
-text = b"Hello World! 你好，中国！"
-key = b"1234567890"
+text = "Hello World! 你好，中国！"
+key = "1234567890"
 encrypt_data = xxtea.encrypt(text, key)
-decrypt_data = xxtea.decrypt(encrypt_data, key)
+decrypt_data = xxtea.decrypt_utf8(encrypt_data, key)
 print(text == decrypt_data);
 ```

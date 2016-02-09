@@ -1,5 +1,5 @@
 import sys
-from distutils.core import setup
+from setuptools import setup
 if sys.version_info < (2, 6):
     print >> sys.stderr, 'error: python 2.6 or higher is required, you are using %s' %'.'.join([str(i) for i in sys.version_info])
     sys.exit(1)
@@ -9,7 +9,7 @@ if sys.version_info < (2, 7):
     tests_require.append('nose_extra_tools')
 
 setup(
-    name = 'XXTEA',
+    name = 'xxtea-python',
     version = '1.0.0',
     description = 'XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for Python.',
     long_description = open('README.md', 'r').read(),
