@@ -1,10 +1,8 @@
 XXTEA for Python
 ================
 
-|Build Status|
-
-.. |Build Status| image:: https://travis-ci.org/xxtea/xxtea-python.svg?branch=master
-            :target: https://travis-ci.org/xxtea/xxtea-python
+.. image:: https://travis-ci.org/xxtea/xxtea-python.svg?branch=master
+    :target: https://travis-ci.org/xxtea/xxtea-python
 
 Introduction
 ------------
