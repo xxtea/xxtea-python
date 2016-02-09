@@ -12,8 +12,8 @@ class TestXXTEA(unittest.TestCase):
         self.assertEqual(text, decrypt_data)
     def test_xxtea2(self):
         if sys.version_info < (3, 0):
-            text = u"Hello World! 你好，中国！"
-            key = u"1234567890"
+            text = "Hello World! 你好，中国！".decode("utf-8")
+            key = "1234567890".decode("utf-8")
         else:
             text = "Hello World! 你好，中国！"
             key = "1234567890"
