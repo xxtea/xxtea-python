@@ -11,7 +11,7 @@ XXTEA 是一个快速安全的加密算法。本项目是 XXTEA 加密算法的 
 ## 安装
 
 ```sh
-pip install xxtea-py
+pip install XXTEA
 ```
 
 ## 使用

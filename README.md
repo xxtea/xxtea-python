@@ -11,7 +11,7 @@ It is different from the original XXTEA encryption algorithm. It encrypts and de
 ## Installation
 
 ```sh
-pip install xxtea-py
+pip install XXTEA
 ```
 
 ## Usage
