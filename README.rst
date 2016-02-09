@@ -2,7 +2,25 @@ XXTEA for Python
 ================
 
 .. image:: https://travis-ci.org/xxtea/xxtea-python.svg?branch=master
-    :target: https://travis-ci.org/xxtea/xxtea-python
+   :target: https://travis-ci.org/xxtea/xxtea-python
+
+.. image:: https://img.shields.io/pypi/v/xxtea-python.svg
+   :target: https://pypi.python.org/pypi/xxtea-python
+
+.. image:: https://img.shields.io/pypi/l/xxtea-python.svg
+   :target: https://pypi.python.org/pypi/xxtea-python
+
+.. image:: https://img.shields.io/pypi/pyversions/xxtea-python.svg
+   :target: https://pypi.python.org/pypi/xxtea-python
+
+.. image:: https://img.shields.io/pypi/implementation/xxtea-python.svg
+   :target: https://pypi.python.org/pypi/xxtea-python
+
+.. image:: https://img.shields.io/pypi/status/xxtea-python.svg
+   :target: https://pypi.python.org/pypi/xxtea-python
+
+.. image:: https://img.shields.io/pypi/dm/xxtea-python.svg
+   :target: https://pypi.python.org/pypi/xxtea-python
 
 Introduction
 ------------

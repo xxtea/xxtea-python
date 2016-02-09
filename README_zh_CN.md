@@ -1,6 +1,12 @@
 # XXTEA 加密算法的 Python 实现
 
 [![Build Status](https://travis-ci.org/xxtea/xxtea-python.svg?branch=master)](https://travis-ci.org/xxtea/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/v/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/l/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/pyversions/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/implementation/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/status/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/dm/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
 
 ## 简介
 
