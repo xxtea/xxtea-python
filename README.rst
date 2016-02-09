@@ -17,6 +17,7 @@ Installation
 ------------
 
 ::
+
     pip install xxtea-python
 
 
@@ -26,6 +27,7 @@ Usage
 Python2:
 
 .. code-block:: python
+
     import xxtea
     text = "Hello World! 你好，中国！"
     key = "1234567890"
@@ -37,6 +39,7 @@ Python2:
 Python3:
 
 .. code-block:: python
+
     import xxtea
     text = "Hello World! 你好，中国！"
     key = "1234567890"
