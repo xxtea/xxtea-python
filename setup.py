@@ -10,9 +10,9 @@ if sys.version_info < (2, 7):
 
 setup(
     name = 'xxtea-python',
-    version = '1.0.0',
+    version = '1.0.1',
     description = 'XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for Python.',
-    long_description = open('README.md', 'r').read(),
+    long_description = open('README.rst', 'r').read(),
     keywords = 'xxtea crypt encrypt decrypt xtea tea',
     author = 'Ma Bingyao',
     author_email = 'mabingyao@gmail.com',
