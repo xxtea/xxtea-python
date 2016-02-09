@@ -5,8 +5,12 @@ import unittest
 
 class TestXXTEA(unittest.TestCase):
     def test_xxtea1(self):
-        text = b"Hello World! 你好，中国！"
-        key = b"1234567890"
+        if sys.version_info < (3, 0):
+            text = "Hello World! 你好，中国！"
+            key = "1234567890"
+        else:
+            text = "Hello World! 你好，中国！".encode("utf-8")
+            key = "1234567890".encode("utf-8")
         encrypt_data = xxtea.encrypt(text, key)
         decrypt_data = xxtea.decrypt(encrypt_data, key)
         self.assertEqual(text, decrypt_data)
