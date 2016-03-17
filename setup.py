@@ -9,9 +9,9 @@ if sys.version_info < (2, 7):
     tests_require.append('nose_extra_tools')
 
 setup(
-    name = 'xxtea-python',
+    name = 'xxtea-py',
     version = '1.0.2',
-    description = 'XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for Python.',
+    description = 'XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for Python. It is based on CFFI, so it is fast and support both cpython and pypy.',
     long_description = open('README.rst', 'r').read(),
     keywords = 'xxtea crypt encrypt decrypt xtea tea',
     author = 'Ma Bingyao',

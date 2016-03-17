@@ -1,25 +1,27 @@
 # XXTEA for Python
 
 [![Build Status](https://travis-ci.org/xxtea/xxtea-python.svg?branch=master)](https://travis-ci.org/xxtea/xxtea-python)
-[![PyPI](https://img.shields.io/pypi/v/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
-[![PyPI](https://img.shields.io/pypi/l/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
-[![PyPI](https://img.shields.io/pypi/pyversions/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
-[![PyPI](https://img.shields.io/pypi/implementation/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
-[![PyPI](https://img.shields.io/pypi/status/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
-[![PyPI](https://img.shields.io/pypi/dm/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
-[![PyPI](https://img.shields.io/pypi/dw/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
-[![PyPI](https://img.shields.io/pypi/dd/xxtea-python.svg)](https://pypi.python.org/pypi/xxtea-python)
+[![PyPI](https://img.shields.io/pypi/v/xxtea-py.svg)](https://pypi.python.org/pypi/xxtea-py)
+[![PyPI](https://img.shields.io/pypi/l/xxtea-py.svg)](https://pypi.python.org/pypi/xxtea-py)
+[![PyPI](https://img.shields.io/pypi/pyversions/xxtea-py.svg)](https://pypi.python.org/pypi/xxtea-py)
+[![PyPI](https://img.shields.io/pypi/implementation/xxtea-py.svg)](https://pypi.python.org/pypi/xxtea-py)
+[![PyPI](https://img.shields.io/pypi/status/xxtea-py.svg)](https://pypi.python.org/pypi/xxtea-py)
+[![PyPI](https://img.shields.io/pypi/dm/xxtea-py.svg)](https://pypi.python.org/pypi/xxtea-py)
+[![PyPI](https://img.shields.io/pypi/dw/xxtea-py.svg)](https://pypi.python.org/pypi/xxtea-py)
+[![PyPI](https://img.shields.io/pypi/dd/xxtea-py.svg)](https://pypi.python.org/pypi/xxtea-py)
 
 ## Introduction
 
 XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for Python.
+
+It is based on CFFI, so it is fast and support both cpython and pypy.
 
 It is different from the original XXTEA encryption algorithm. It encrypts and decrypts raw binary data instead of 32bit integer array, and the key is also the raw binary data.
 
 ## Installation
 
 ```sh
-pip install xxtea-python
+pip install xxtea-py
 ```
 
 ## Usage
