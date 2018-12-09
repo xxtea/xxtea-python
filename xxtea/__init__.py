@@ -10,6 +10,7 @@ ffi = FFI()
 ffi.cdef('''
     void * xxtea_encrypt(const void * data, size_t len, const void * key, size_t * out_len);
     void * xxtea_decrypt(const void * data, size_t len, const void * key, size_t * out_len);
+    void free(void * ptr);
 ''')
 ffi.C = ffi.dlopen(None)
 lib = ffi.verify('#include <xxtea.h>', sources = __SOURCES, include_dirs=[__PATH])
@@ -35,7 +36,9 @@ def encrypt(data, key):
     key = ffi.new('char[]', __tobytes(key))
     out_len = ffi.new('size_t *')
     result = lib.xxtea_encrypt(data, data_len, key, out_len)
-    return ffi.buffer(result, out_len[0])[:]
+    ret = ffi.buffer(result, out_len[0])[:]
+    lib.free(result)
+    return ret
 
 def decrypt(data, key):
     '''decrypt the data with the key'''
@@ -44,7 +47,9 @@ def decrypt(data, key):
     key = ffi.new('char[]', __tobytes(key))
     out_len = ffi.new('size_t *')
     result = lib.xxtea_decrypt(data, data_len, key, out_len)
-    return ffi.buffer(result, out_len[0])[:]
+    ret = ffi.buffer(result, out_len[0])[:]
+    lib.free(result)
+    return ret
 
 def decrypt_utf8(data, key):
     '''decrypt the data with the key to string'''
