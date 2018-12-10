@@ -1,10 +1,10 @@
 # encoding: utf-8
 from cffi import FFI
 import sys
-from os.path import join, relpath, dirname
+from os.path import join, dirname
 
 __PATH = dirname(__file__)
-__SOURCES = [relpath(join(__PATH, 'xxtea.c'))]
+__SOURCES = [join(__PATH, 'xxtea.c')]
 
 ffi = FFI()
 ffi.cdef('''
