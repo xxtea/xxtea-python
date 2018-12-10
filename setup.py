@@ -10,7 +10,7 @@ if sys.version_info < (2, 7):
 
 setup(
     name = 'xxtea-py',
-    version = '1.0.2',
+    version = '1.0.3',
     description = 'XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for Python. It is based on CFFI, so it is fast and support both cpython and pypy.',
     long_description = open('README.rst', 'r').read(),
     keywords = 'xxtea crypt encrypt decrypt xtea tea',
@@ -36,6 +36,8 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
