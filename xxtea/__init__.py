@@ -58,8 +58,8 @@ if __name__ == "__main__":
     text = "Hello World! \0你好，中国！"
     key = "1234567890"
     encrypt_data = encrypt(text, key)
-if sys.version_info < (3, 0):
-    decrypt_data = decrypt(encrypt_data, key)
-else:
-    decrypt_data = decrypt_utf8(encrypt_data, key)
+    if sys.version_info < (3, 0):
+        decrypt_data = decrypt(encrypt_data, key)
+    else:
+        decrypt_data = decrypt_utf8(encrypt_data, key)
     assert(text == decrypt_data)
